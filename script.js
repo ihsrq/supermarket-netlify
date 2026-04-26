@@ -296,7 +296,7 @@ document.querySelector('.checkout-btn').addEventListener('click', function() {
         `\n\nTotal: ₹${total.toFixed(2)}`;
     
     // Open WhatsApp with order details
-    const whatsappUrl = `https://wa.me/9353989394?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/7411396919?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
     
     // Clear cart after order
